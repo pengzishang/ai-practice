@@ -1,0 +1,16 @@
+[project]
+name = "project1-2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "python-dotenv",
+    "fastapi",
+    "uvicorn",
+    "pydantic-settings",
+    "pyautogen==0.2.35",
+]
+
+[tool.setuptools.packages.find]
+include = ["api", "config"]
